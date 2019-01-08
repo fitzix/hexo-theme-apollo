@@ -12,6 +12,7 @@ logo: /favicon.png
 # e.g disqus: seansun
 disqus:
 duoshuo:
+gitalk:
 
 # Analytics
 # google-analytics:
