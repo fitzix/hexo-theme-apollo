@@ -36,7 +36,7 @@ if theme.gitalk
             repo: '#{theme.gitalk.repo}',
             owner: '#{theme.gitalk.owner}',
             admin: ['#{theme.gitalk.admin}'],
-            id: location.pathname.substring(1),
+            id: location.pathname.substring(1, 51),
             distractionFreeMode: false  // Facebook-like distraction free mode
         });
         gitalk.render('gitalk-container');
