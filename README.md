@@ -37,6 +37,22 @@ archive_generator:
     daily: false
 ```
 
+## gitalk
+查看[gitalk](https://github.com/gitalk/gitalk)文档,配置下列参数
+
+```yaml
+gitalk:
+    clientID: 
+    clientSecret: 
+    repo: 
+    owner: 
+    admin: 
+```
+
+## Tag Cloud
+安装Tag Cloud
+> yarn add hexo-tag-cloud
+
 ## 更新
 
 ``` bash
